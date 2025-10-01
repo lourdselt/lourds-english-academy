@@ -1,4 +1,14 @@
+import tests from './data/tests.json'
+import TestList from './components/TestList.jsx'
+
 function App() {
+  // Sort by numeric test number ascending: Test 01, Test 02, ...
+  const toNum = (t) => {
+    const m = String(t.id || '').match(/(\d+)/)
+    return m ? parseInt(m[1], 10) : Number.MAX_SAFE_INTEGER
+  }
+  const testsSorted = [...tests].sort((a, b) => toNum(a) - toNum(b))
+  const topTwo = testsSorted.slice(0, 2)
   return (
     <div className="min-h-screen bg-[#FAFAFA] text-[#222] font-sans">
       {/* Navbar */}
@@ -6,7 +16,7 @@ function App() {
         <h1 className="text-2xl font-bold text-purple-600">Lourds English Academy</h1>
         <nav className="flex gap-8 text-lg">
           <a href="#home" className="hover:text-purple-600">Home</a>
-          <a href="#quiz" className="hover:text-purple-600">Quiz</a>
+          <a href="#tet-tests" className="hover:text-purple-600">TET Tests</a>
           <a href="#about" className="hover:text-purple-600">About</a>
           <a href="#contact" className="hover:text-purple-600">Contact</a>
         </nav>
@@ -18,52 +28,44 @@ function App() {
         className="relative flex flex-col items-center justify-center text-center px-6 py-28 bg-gradient-to-r from-purple-100 via-white to-purple-50"
       >
         <h2 className="text-6xl font-bold max-w-4xl leading-snug text-gray-900">
-          Empower your <span className="text-purple-600">English journey</span><br />
+          Empower your <span className="text-purple-600">English Journey</span><br />
           with confidence
         </h2>
-        <p className="mt-6 max-w-2xl text-lg text-gray-600">
-          Practice English with interactive quizzes, resources, and tools designed for teachers and learners.
-        </p>
-        <div className="flex gap-4 mt-10">
+  <p className="mt-6 max-w-2xl text-lg text-gray-600">Take free TET Practice Test</p>
+        <div className="flex flex-wrap gap-4 mt-10 justify-center">
+          {topTwo.map((t) => (
+            <a
+              key={t.id}
+              href={t.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 text-white rounded-full px-8 py-4 shadow-md hover:opacity-90 text-lg"
+            >
+              {t.label}
+            </a>
+          ))}
           <a
-            href="https://lourdselt.github.io/TET-English-Quiz/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-purple-600 text-white rounded-full px-10 py-4 shadow-md hover:opacity-90 text-lg"
+            href="#tet-tests"
+            className="border-2 border-purple-600 text-purple-600 rounded-full px-8 py-4 hover:bg-purple-50 text-lg"
           >
-            Start Quiz
-          </a>
-          <a
-            href="#about"
-            className="border-2 border-purple-600 text-purple-600 rounded-full px-10 py-4 hover:bg-purple-50 text-lg"
-          >
-            Learn More
+            View All Tests
           </a>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section id="quiz" className="px-12 py-20 grid md:grid-cols-3 gap-8">
-        <div className="p-8 rounded-2xl shadow-md bg-white">
-          <h3 className="text-2xl font-semibold mb-4 text-purple-600">Quizzes</h3>
-          <p className="text-gray-700">Challenge yourself with daily quizzes to improve English skills.</p>
-        </div>
-        <div className="p-8 rounded-2xl shadow-md bg-white">
-          <h3 className="text-2xl font-semibold mb-4 text-purple-600">Resources</h3>
-          <p className="text-gray-700">Access free materials, question papers, and study guides (coming soon).</p>
-        </div>
-        <div className="p-8 rounded-2xl shadow-md bg-white">
-          <h3 className="text-2xl font-semibold mb-4 text-purple-600">Community</h3>
-          <p className="text-gray-700">Join fellow teachers and learners in sharing tips and experiences (future feature).</p>
-        </div>
+      {/* TET Tests Section */}
+      <section id="tet-tests" className="px-12 py-20">
+        <h3 className="text-3xl font-semibold mb-6 text-purple-600">TET Practice Tests</h3>
+        <p className="text-gray-700 mb-8">Take a Free Practice Test.</p>
+        <TestList tests={testsSorted} />
       </section>
 
       {/* About Section */}
       <section id="about" className="px-12 py-20 text-center bg-purple-50 rounded-2xl mx-12">
         <h3 className="text-3xl font-semibold mb-6 text-purple-600">About</h3>
         <p className="text-gray-700 max-w-3xl mx-auto">
-          Lourds English Academy is created to support English teachers and learners. 
-          Starting with free quizzes, the site will grow to include resources, games, 
+          Lourds English Academy is created to support English teachers and learners.
+          Starting with free quizzes, the site will grow to include resources, games,
           video lessons, and interactive materials for effective learning.
         </p>
       </section>
@@ -72,7 +74,7 @@ function App() {
       <section id="contact" className="px-12 py-20 text-center">
         <h3 className="text-3xl font-semibold mb-6 text-purple-600">Contact</h3>
         <p className="text-gray-700 mb-4">Have questions or suggestions? Reach us at:</p>
-        <a href="mailto:lourdselt@gmail.com" className="text-purple-600 underline">xxxxxxxx@gmail.com</a>
+        <a href="mailto:doss.elt@gmail.com" className="text-purple-600 underline">doss.elt@gmail.com</a>
       </section>
 
       {/* Footer */}
