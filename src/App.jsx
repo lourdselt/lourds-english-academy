@@ -8,7 +8,7 @@ function App() {
     return m ? parseInt(m[1], 10) : Number.MAX_SAFE_INTEGER
   }
   const testsSorted = [...tests].sort((a, b) => toNum(a) - toNum(b))
-  const topTwo = testsSorted.slice(0, 2)
+  const topThree = testsSorted.slice(0, 3)
   return (
     <div className="min-h-screen bg-[#FAFAFA] text-[#222] font-sans">
       {/* Navbar */}
@@ -33,7 +33,7 @@ function App() {
         </h2>
   <p className="mt-6 max-w-2xl text-lg text-gray-600">Take free TET Practice Test</p>
         <div className="flex flex-wrap gap-4 mt-10 justify-center">
-          {topTwo.map((t) => (
+          {topThree.map((t) => (
             <a
               key={t.id}
               href={t.href}

@@ -6,7 +6,10 @@
 			"href": "https://lourdselt.github.io/TET-English-Quiz/test-01.html",
 		"date": "2025-10-01",
 		"meta": {
-			"topics": ["Grammar", "Vocabulary"]
+				"topics": [
+					"Vocabulary & Usage",
+					"Grammar & Sentence Structure"
+				]
 		}
 	},
 	{
@@ -16,7 +19,20 @@
 			"href": "https://lourdselt.github.io/TET-English-Quiz/test-02.html",
 		"date": "2025-10-02",
 		"meta": {
-			"topics": ["Reading Comprehension"]
+				"topics": ["Literature & Reading"]
 		}
-	}
+		},
+		{
+			"id": "test-03",
+			"label": "Test 03",
+			"series": "TET Practice Tests",
+			"href": "https://lourdselt.github.io/TET-English-Quiz/test-03.html",
+			"date": "2025-10-10",
+			"meta": {
+				"topics": [
+					"Functional & Applied English",
+					"Phonetics & Word Formation"
+				]
+			}
+		}
 ]
