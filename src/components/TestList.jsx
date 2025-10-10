@@ -23,7 +23,12 @@ export default function TestList({ tests = [] }) {
                 {t.label}
               </div>
             </div>
-            <span className="text-purple-600 text-2xl">→</span>
+            <div className="flex items-center gap-2">
+              {t.isNew ? (
+                <span className="text-[11px] font-semibold uppercase bg-green-100 text-green-700 px-2 py-1 rounded-full">New</span>
+              ) : null}
+              <span className="text-purple-600 text-2xl">→</span>
+            </div>
           </div>
           {t.meta?.topics?.length ? (
             <div className="mt-3 text-sm text-gray-600">

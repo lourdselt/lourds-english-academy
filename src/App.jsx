@@ -39,9 +39,12 @@ function App() {
               href={t.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-purple-600 text-white rounded-full px-8 py-4 shadow-md hover:opacity-90 text-lg"
+              className="relative bg-purple-600 text-white rounded-full px-8 py-4 shadow-md hover:opacity-90 text-lg"
             >
               {t.label}
+              {t.isNew ? (
+                <span className="ml-2 align-middle text-[11px] font-semibold uppercase bg-green-100 text-green-800 px-2 py-1 rounded-full">New</span>
+              ) : null}
             </a>
           ))}
           <a
