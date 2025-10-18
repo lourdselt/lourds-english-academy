@@ -1,5 +1,6 @@
 import tests from './data/tests.json'
 import TestList from './components/TestList.jsx'
+import WordOfDay from './components/WordOfDay.jsx'
 
 function App() {
   // Sort by numeric test number ascending: Test 01, Test 02, ...
@@ -55,6 +56,9 @@ function App() {
           </a>
         </div>
       </section>
+
+  {/* Word of the Day */}
+  <WordOfDay />
 
       {/* TET Tests Section */}
       <section id="tet-tests" className="px-12 py-20">
