@@ -35,5 +35,21 @@
 				]
 				},
 				"isNew": true
-		}
+			},
+			{
+				"id": "test-04",
+				"label": "Test 04",
+				"series": "TET Practice Tests",
+				"href": "https://lourdselt.github.io/TET-English-Quiz/test-04.html",
+				"date": "2025-10-18",
+				"isNew": true
+			},
+			{
+				"id": "test-05",
+				"label": "Test 05",
+				"series": "TET Practice Tests",
+				"href": "https://lourdselt.github.io/TET-English-Quiz/test-05.html",
+				"date": "2025-10-18",
+				"isNew": true
+			}
 ]
