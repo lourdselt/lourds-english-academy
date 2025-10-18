@@ -5,8 +5,15 @@
     "pos": "adjective",
     "definition": "Fluent or persuasive in speaking or writing.",
     "example": "Her eloquent speech inspired the entire audience.",
-    "synonyms": ["expressive", "persuasive", "articulate"],
-    "antonyms": ["inarticulate", "tongue-tied"]
+    "synonyms": [
+      "expressive",
+      "persuasive",
+      "articulate"
+    ],
+    "antonyms": [
+      "inarticulate",
+      "tongue-tied"
+    ]
   },
   {
     "word": "Endeavour",
@@ -14,43 +21,2769 @@
     "pos": "verb",
     "definition": "To try hard to do or achieve something.",
     "example": "We will endeavour to respond within 24 hours.",
-    "synonyms": ["strive", "attempt", "try"],
-    "antonyms": ["neglect", "give up"]
+    "synonyms": [
+      "strive",
+      "attempt",
+      "try"
+    ],
+    "antonyms": [
+      "neglect",
+      "give up"
+    ]
   },
   {
-  "word": "Concise",
-  "ipa": "kənˈsaɪs",
+    "word": "Concise",
+    "ipa": "kənˈsaɪs",
     "pos": "adjective",
     "definition": "Giving a lot of information clearly in a few words; brief but comprehensive.",
     "example": "Please keep your explanation concise and clear.",
-    "synonyms": ["brief", "succinct", "compact"],
-    "antonyms": ["wordy", "verbose"]
+    "synonyms": [
+      "brief",
+      "succinct",
+      "compact"
+    ],
+    "antonyms": [
+      "wordy",
+      "verbose"
+    ]
   },
   {
-  "word": "Inquisitive",
-  "ipa": "ɪnˈkwɪzɪtɪv",
+    "word": "Inquisitive",
+    "ipa": "ɪnˈkwɪzɪtɪv",
     "pos": "adjective",
     "definition": "Curious or inquiring.",
     "example": "The inquisitive child asked thoughtful questions.",
-    "synonyms": ["curious", "probing", "questioning"],
-    "antonyms": ["indifferent", "uninterested"]
+    "synonyms": [
+      "curious",
+      "probing",
+      "questioning"
+    ],
+    "antonyms": [
+      "indifferent",
+      "uninterested"
+    ]
   },
   {
-  "word": "Synthesize",
-  "ipa": "ˈsɪnθɪsaɪz",
+    "word": "Synthesize",
+    "ipa": "ˈsɪnθɪsaɪz",
     "pos": "verb",
     "definition": "To combine parts into a coherent whole.",
     "example": "Students should synthesize information from multiple sources.",
-    "synonyms": ["combine", "integrate", "merge"],
-    "antonyms": ["separate", "divide"]
+    "synonyms": [
+      "combine",
+      "integrate",
+      "merge"
+    ],
+    "antonyms": [
+      "separate",
+      "divide"
+    ]
   },
   {
-  "word": "Nuance",
-  "ipa": "ˈnjuːɑːns",
+    "word": "Nuance",
+    "ipa": "ˈnjuːɑːns",
     "pos": "noun",
     "definition": "A subtle difference in meaning, expression, or sound.",
     "example": "He explained the nuances of the poem's imagery.",
-    "synonyms": ["subtlety", "shade", "distinction"],
-    "antonyms": ["obviousness", "clarity"]
+    "synonyms": [
+      "subtlety",
+      "shade",
+      "distinction"
+    ],
+    "antonyms": [
+      "obviousness",
+      "clarity"
+    ]
+  },
+  {
+    "word": "Abate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Abdicate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Aberration",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Abhorrent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Abstruse",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Accentuate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Acquiesce",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Acrimonious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Admonish",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Adroit",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Aesthetic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Affluent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Alacrity",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Altruistic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ambivalent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Anachronism",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Anathema",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Anomaly",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Antithetical",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Apathy",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Aphorism",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Apprehensive",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Arbitrary",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Arduous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Articulate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Bellicose",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Benign",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Bequeath",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Bombastic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Bourgeois",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Bucolic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Buttress",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Brevity",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Brazen",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Bastion",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Cacophony",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Cajole",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Capitulate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Cathartic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Caustic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Censure",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Chicanery",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Coerce",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Cogent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Cohesive",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Complacent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Conducive",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Conjecture",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Conspicuous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Construe",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Contrite",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Convoluted",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Copious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Cryptic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Cursory",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Daunting",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Debacle",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Deference",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Deleterious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Delineate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Demagogue",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Denigrate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Deride",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Despot",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Detrimental",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Didactic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Dilemma",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Disconcerting",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Discrepancy",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Disdain",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Disparate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Disseminate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Dissident",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Divergent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ebullient",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Eclectic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Egregious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Elucidate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Emulate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Enigmatic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Entail",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Enumerate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ephemeral",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Equanimity",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Equivocal",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Eradicate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Esoteric",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ethereal",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Euphoria",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Exacerbate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Exculpate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Exemplary",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Exonerate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Expeditious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Extrapolate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Extol",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Facetious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Fallacious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Fastidious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Flagrant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Fluctuate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Foment",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Formidable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Fortuitous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Frivolous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Frugal",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Garrulous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Gaudy",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Gregarious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Gratuitous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Guile",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Gullible",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Grandiose",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Grimace",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Hackneyed",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Haphazard",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Harangue",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Hedonistic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Heinous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Heresy",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Homogeneous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Hypocritical",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Hyperbole",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Idiosyncratic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ignominious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Immutable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Impartial",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Impeccable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Impetuous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Implicit",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Imposing",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Impromptu",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Impugn",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Incessant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Incongruous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Incorrigible",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Indelible",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Indigent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Indolent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ineffable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Inexorable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ingenious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Inimical",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Innocuous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Insidious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Insinuate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Insipid",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Intrepid",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Inundate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Juxtapose",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Jocular",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Judicious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Jurisprudence",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Keen",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Kindle",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Kudos",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Lament",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Languid",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Latent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Laudable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Lethargic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Licentious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Loquacious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Lucid",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Lugubrious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Magnanimous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Malevolent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Malicious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Malleable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Misanthrope",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Mitigate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Modicum",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Mundane",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Myriad",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Nefarious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Nemesis",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Nonchalant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Notorious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Novice",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Obdurate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Obfuscate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Obsequious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Odious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ominous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Omnipotent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Omniscient",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ostensible",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ostentatious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Opaque",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Palpable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Paradox",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Paragon",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pariah",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Parsimonious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Paucity",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pedantic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pejorative",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Perfunctory",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Perilous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pernicious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Perpetuate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Perspicacious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pertinent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pervasive",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Philistine",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Placate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Plausible",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Poignant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pragmatic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Precarious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Precocious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Predilection",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Preposterous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Presumptuous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Proclivity",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Prodigal",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Prodigious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Profound",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Prolific",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Propensity",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Prosaic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Provincial",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Prudent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Pugnacious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Quandary",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Quell",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Querulous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Quixotic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Rancor",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Recalcitrant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Reclusive",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Redundant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Reiterate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Remorse",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Renounce",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Repercussion",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Reprehensible",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Reproach",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Resilient",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Resolute",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Reticent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Rudimentary",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Sagacious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Sanctimonious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Sanguine",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Scrupulous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Servile",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Simulate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Skeptical",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Solicitous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Somber",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Sporadic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Spurious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Stagnant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Static",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Stringent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Substantiate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Superfluous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Supersede",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Surreptitious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Sycophant",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Symbiotic",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Tacit",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Tangible",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Tenuous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Tirade",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Torpid",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Transient",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Trepidation",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Trivial",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Truculent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Tumultuous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Turpitude",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Ubiquitous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Umbrage",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Unequivocal",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Unilateral",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Urbane",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Usurp",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Vacillate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Vapid",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Vehement",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Venerable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Verbose",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Versatile",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Viable",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Vindicate",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Virulent",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Vociferous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Volatile",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Voracious",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Wary",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Whimsical",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Wistful",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Xenophobia",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Yearn",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Zealous",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Zenith",
+    "ipa": "",
+    "pos": "",
+    "definition": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": []
   }
 ]

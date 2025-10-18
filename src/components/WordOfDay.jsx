@@ -1,15 +1,54 @@
 import React, { useEffect, useState } from 'react'
 import words from '../data/words.json'
 
+// Fisher–Yates shuffle
+function shuffle(arr) {
+  const a = arr.slice()
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+function istNowMs() {
+  const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000
+  return Date.now() + IST_OFFSET_MS
+}
+
+function getIstDayNumber() {
+  return Math.floor(istNowMs() / 86400000)
+}
+
 function pickWordToday(list) {
   if (!list?.length) return null
-  // Use local day index so it changes automatically at local midnight, no manual dates required
-  // Compute day index anchored to Indian Standard Time (UTC+5:30)
-  const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000
-  const nowUtcMs = Date.now()
-  const istNowMs = nowUtcMs + IST_OFFSET_MS
-  const dayIndex = Math.floor(istNowMs / 86400000)
-  return list[dayIndex % list.length]
+  const N = list.length
+  const key = 'wotdStateV1'
+  let state
+  try { state = JSON.parse(localStorage.getItem(key) || 'null') } catch {}
+
+  const today = getIstDayNumber()
+
+  // (Re)initialize state if missing or size changed
+  if (!state || !Array.isArray(state.order) || state.order.length !== N) {
+    state = {
+      order: shuffle([...Array(N).keys()]),
+      pointer: 0,
+      lastDay: today,
+    }
+  }
+
+  // Advance pointer at a new IST day
+  if (state.lastDay !== today) {
+    state.pointer = (state.pointer + 1) % N
+    state.lastDay = today
+  }
+
+  // Persist state
+  try { localStorage.setItem(key, JSON.stringify(state)) } catch {}
+
+  const idx = state.order[state.pointer] ?? 0
+  return list[idx]
 }
 
 export default function WordOfDay() {
@@ -61,8 +100,10 @@ export default function WordOfDay() {
             <div className="text-gray-600 mt-1">/{w.ipa}/</div>
           ) : null}
           <div className="mt-4 text-gray-800">
-            <span className="uppercase text-xs tracking-wide bg-purple-100 text-purple-800 px-2 py-1 rounded-full mr-2">{w.pos}</span>
-            <span>{w.definition}</span>
+            {w.pos ? (
+              <span className="uppercase text-xs tracking-wide bg-purple-100 text-purple-800 px-2 py-1 rounded-full mr-2">{w.pos}</span>
+            ) : null}
+            {w.definition ? <span>{w.definition}</span> : null}
           </div>
           {w.example ? (
             <div className="mt-3 text-gray-600 italic">“{w.example}”</div>
