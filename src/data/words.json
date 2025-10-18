@@ -1,51 +1,56 @@
 [
   {
     "word": "Eloquent",
-    "pronunciation": "EH-luh-kwuhnt",
+    "ipa": "ˈɛləkwənt",
     "pos": "adjective",
     "definition": "Fluent or persuasive in speaking or writing.",
     "example": "Her eloquent speech inspired the entire audience.",
-    "synonyms": ["expressive", "persuasive", "articulate"]
+    "synonyms": ["expressive", "persuasive", "articulate"],
+    "antonyms": ["inarticulate", "tongue-tied"]
   },
   {
     "word": "Endeavour",
-    "pronunciation": "en-DEV-er",
+    "ipa": "ɪnˈdɛvə(r)",
     "pos": "verb",
     "definition": "To try hard to do or achieve something.",
     "example": "We will endeavour to respond within 24 hours.",
     "synonyms": ["strive", "attempt", "try"],
-    "date": "2025-10-18"
+    "antonyms": ["neglect", "give up"]
   },
   {
-    "word": "Concise",
-    "pronunciation": "kuhn-SAHYS",
+  "word": "Concise",
+  "ipa": "kənˈsaɪs",
     "pos": "adjective",
     "definition": "Giving a lot of information clearly in a few words; brief but comprehensive.",
     "example": "Please keep your explanation concise and clear.",
-    "synonyms": ["brief", "succinct", "compact"]
+    "synonyms": ["brief", "succinct", "compact"],
+    "antonyms": ["wordy", "verbose"]
   },
   {
-    "word": "Inquisitive",
-    "pronunciation": "in-KWIZ-uh-tiv",
+  "word": "Inquisitive",
+  "ipa": "ɪnˈkwɪzɪtɪv",
     "pos": "adjective",
     "definition": "Curious or inquiring.",
     "example": "The inquisitive child asked thoughtful questions.",
-    "synonyms": ["curious", "probing", "questioning"]
+    "synonyms": ["curious", "probing", "questioning"],
+    "antonyms": ["indifferent", "uninterested"]
   },
   {
-    "word": "Synthesize",
-    "pronunciation": "SIN-thuh-sahyz",
+  "word": "Synthesize",
+  "ipa": "ˈsɪnθɪsaɪz",
     "pos": "verb",
     "definition": "To combine parts into a coherent whole.",
     "example": "Students should synthesize information from multiple sources.",
-    "synonyms": ["combine", "integrate", "merge"]
+    "synonyms": ["combine", "integrate", "merge"],
+    "antonyms": ["separate", "divide"]
   },
   {
-    "word": "Nuance",
-    "pronunciation": "NOO-ahns",
+  "word": "Nuance",
+  "ipa": "ˈnjuːɑːns",
     "pos": "noun",
     "definition": "A subtle difference in meaning, expression, or sound.",
     "example": "He explained the nuances of the poem's imagery.",
-    "synonyms": ["subtlety", "shade", "distinction"]
+    "synonyms": ["subtlety", "shade", "distinction"],
+    "antonyms": ["obviousness", "clarity"]
   }
 ]

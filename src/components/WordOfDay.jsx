@@ -1,19 +1,42 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import words from '../data/words.json'
 
 function pickWordToday(list) {
   if (!list?.length) return null
-  const today = new Date()
-  const iso = today.toISOString().slice(0,10)
-  // Prefer item with matching date
-  const dated = list.find(w => w.date === iso)
-  if (dated) return dated
-  // Otherwise rotate deterministically by day index
-  const dayIndex = Math.floor(Date.now() / (1000 * 60 * 60 * 24))
+  // Use local day index so it changes automatically at local midnight, no manual dates required
+  // Compute day index anchored to Indian Standard Time (UTC+5:30)
+  const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000
+  const nowUtcMs = Date.now()
+  const istNowMs = nowUtcMs + IST_OFFSET_MS
+  const dayIndex = Math.floor(istNowMs / 86400000)
   return list[dayIndex % list.length]
 }
 
 export default function WordOfDay() {
+  const [tick, setTick] = useState(0)
+  useEffect(() => {
+    const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000
+    const MS_DAY = 86400000
+    const nowUtcMs = Date.now()
+    const istNowMs = nowUtcMs + IST_OFFSET_MS
+    const istDayStartMs = Math.floor(istNowMs / MS_DAY) * MS_DAY
+    const msUntilNextIstMidnight = istDayStartMs + MS_DAY - istNowMs
+
+    const timeoutId = setTimeout(() => {
+      setTick((t) => t + 1)
+      // After the first flip, refresh every 24h at the same IST time
+      const intervalId = setInterval(() => setTick((t) => t + 1), MS_DAY)
+      // Store on window to clear on unmount
+      window.__wotdIntervalId && clearInterval(window.__wotdIntervalId)
+      window.__wotdIntervalId = intervalId
+    }, msUntilNextIstMidnight)
+
+    return () => {
+      clearTimeout(timeoutId)
+      if (window.__wotdIntervalId) clearInterval(window.__wotdIntervalId)
+    }
+  }, [])
+
   const w = pickWordToday(words)
   if (!w) return null
   return (
@@ -34,8 +57,8 @@ export default function WordOfDay() {
         </div>
         <div className="mt-4">
           <div className="text-4xl font-bold text-gray-900">{w.word}</div>
-          {w.pronunciation ? (
-            <div className="text-gray-600 mt-1">/{w.pronunciation}/</div>
+          {w.ipa ? (
+            <div className="text-gray-600 mt-1">/{w.ipa}/</div>
           ) : null}
           <div className="mt-4 text-gray-800">
             <span className="uppercase text-xs tracking-wide bg-purple-100 text-purple-800 px-2 py-1 rounded-full mr-2">{w.pos}</span>
@@ -47,6 +70,11 @@ export default function WordOfDay() {
           {w.synonyms?.length ? (
             <div className="mt-4 text-sm text-gray-700">
               <span className="font-medium text-gray-900">Synonyms:</span> {w.synonyms.join(', ')}
+            </div>
+          ) : null}
+          {w.antonyms?.length ? (
+            <div className="mt-2 text-sm text-gray-700">
+              <span className="font-medium text-gray-900">Antonyms:</span> {w.antonyms.join(', ')}
             </div>
           ) : null}
         </div>
