@@ -1,14 +1,25 @@
 import React, { useEffect, useState } from 'react'
 import words from '../data/words.json'
 
-// Fisher–Yates shuffle
-function shuffle(arr) {
-  const a = arr.slice()
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
+// Deterministic PRNG (Mulberry32)
+function mulberry32(seed) {
+  return function() {
+    let t = (seed += 0x6D2B79F5) >>> 0
+    t = Math.imul(t ^ (t >>> 15), t | 1)
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
   }
-  return a
+}
+
+// Seeded Fisher–Yates shuffle
+function seededShuffleIndices(n, seed = 2025) {
+  const idx = [...Array(n).keys()]
+  const rnd = mulberry32(seed)
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1))
+    ;[idx[i], idx[j]] = [idx[j], idx[i]]
+  }
+  return idx
 }
 
 function istNowMs() {
@@ -22,33 +33,17 @@ function getIstDayNumber() {
 
 function pickWordToday(list) {
   if (!list?.length) return null
-  const N = list.length
-  const key = 'wotdStateV1'
-  let state
-  try { state = JSON.parse(localStorage.getItem(key) || 'null') } catch {}
-
-  const today = getIstDayNumber()
-
-  // (Re)initialize state if missing or size changed
-  if (!state || !Array.isArray(state.order) || state.order.length !== N) {
-    state = {
-      order: shuffle([...Array(N).keys()]),
-      pointer: 0,
-      lastDay: today,
-    }
-  }
-
-  // Advance pointer at a new IST day
-  if (state.lastDay !== today) {
-    state.pointer = (state.pointer + 1) % N
-    state.lastDay = today
-  }
-
-  // Persist state
-  try { localStorage.setItem(key, JSON.stringify(state)) } catch {}
-
-  const idx = state.order[state.pointer] ?? 0
-  return list[idx]
+  // Use only entries with all key fields so IPA/definition/synonyms/antonyms always show
+  const eligible = list.filter(
+    (w) => w && w.ipa && w.definition && Array.isArray(w.synonyms) && w.synonyms.length && Array.isArray(w.antonyms) && w.antonyms.length
+  )
+  const pool = eligible.length ? eligible : list
+  const N = pool.length
+  // Create a deterministic order shared by all users
+  const order = seededShuffleIndices(N, 20251018) // fixed seed; change to reshuffle globally
+  const index = getIstDayNumber() % N
+  const idx = order[index]
+  return pool[idx]
 }
 
 export default function WordOfDay() {
